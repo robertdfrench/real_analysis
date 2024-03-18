@@ -1,7 +1,7 @@
 # 1. Introduction to Real Analysis
 Let's dive into the first topic: **Introduction to Real Analysis**. This part of the course lays the foundation for everything that follows, so it's crucial to get a solid understanding of these concepts. 
 
-### A. The Real Number System
+### [A. The Real Number System][A]
 
 The real number system \(\mathbb{R}\) is the backbone of real analysis. It consists of all the rational numbers (fractions of integers) and irrational numbers (numbers that cannot be expressed as a fraction of two integers). The real numbers can be visualized as points on an infinitely long line known as the real line, where each point corresponds to a unique real number.
 
@@ -79,3 +79,5 @@ This implies that \(b^2\) is even, and hence \(b\) is also even.
 However, if both \(a\) and \(b\) are even, then they have at least 2 as a common factor, which contradicts our initial assumption that \(a\) and \(b\) are co-prime (having no common factors other than 1).
 
 Therefore, our initial assumption that \(\sqrt{2}\) is rational must be false. This means that \(\sqrt{2}\) is irrational.
+
+[A]: A_TheRealNumberSystem/
