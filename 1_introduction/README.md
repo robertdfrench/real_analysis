@@ -48,3 +48,34 @@ Therefore, the sum \(\frac{ad + bc}{bd}\) is a ratio of two integers with a non-
 
 ### Exercise 2
 Show that the square root of 2 is irrational.
+
+
+**Proof:**
+
+Assume, for the sake of contradiction, that \(\sqrt{2}\) is rational. Then it can be written as \(\frac{a}{b}\), where \(a\) and \(b\) are integers with no common factors other than 1 (i.e., \(a\) and \(b\) are co-prime), and \(b \neq 0\).
+
+According to our assumption, \(\sqrt{2} = \frac{a}{b}\). Squaring both sides gives us:
+
+\[2 = \frac{a^2}{b^2}\]
+
+This implies that:
+
+\[a^2 = 2b^2\]
+
+This equation shows that \(a^2\) is even since it is two times some integer (\(b^2\)). If \(a^2\) is even, then \(a\) itself must also be even (because the square of an odd number is odd). So, we can write \(a = 2k\) for some integer \(k\).
+
+Substituting \(2k\) for \(a\) in the equation \(a^2 = 2b^2\) gives us:
+
+\[(2k)^2 = 2b^2\]
+
+Simplifying, we get:
+
+\[4k^2 = 2b^2\]
+
+\[2k^2 = b^2\]
+
+This implies that \(b^2\) is even, and hence \(b\) is also even.
+
+However, if both \(a\) and \(b\) are even, then they have at least 2 as a common factor, which contradicts our initial assumption that \(a\) and \(b\) are co-prime (having no common factors other than 1).
+
+Therefore, our initial assumption that \(\sqrt{2}\) is rational must be false. This means that \(\sqrt{2}\) is irrational.
